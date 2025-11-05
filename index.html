@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Marketing 50 Header</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Using Inter font for modern, clean look -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f8f8;
+        }
+        /* Custom Tailwind Configuration (optional, but good for specific colors) */
+        /* You can define specific colors here if needed, but we'll stick to standard utility classes */
+    </style>
+    <!-- Custom Tailwind configuration for the specific orange color if not in config file --><style>
+        .text-custom-orange {
+            color: #ff6a3c; /* A vibrant orange for highlights */
+        }
+        .bg-custom-orange-light {
+            background-color: #ff6a3c; /* Background for the success rate block */
+        }
+        .text-gray-about {
+            color: #4b5563; /* A specific gray for the main text */
+        }
+        .font-inter {
+            font-family: 'Inter', sans-serif; /* Assuming Inter font for a modern look */
+        }
+    </style>
+    <style>
+        /* Custom Colors and Base Styles */
+        .bg-dark-navy {
+            background-color: #0c142c; /* The very dark blue/navy background */
+        }
+        .text-custom-orange {
+            color: #ff6a3c; /* A vibrant orange for highlights */
+        }
+        .text-custom-light {
+            color: #d1d5db; /* Light gray for secondary text */
+        }
+
+        /* --- Custom Card & Glow Effects --- */
+
+        .service-box-2::before {
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 50%;
+    height: 100%;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 8px;
+    
+}
+
+    </style>
+
+      <style>
+        /* Custom Colors and Base Styles */
+        .bg-light-gray-pattern {
+            background-color: #f7f9fd; /* The light blue-gray background */
+        }
+        .text-custom-orange {
+            color: #ff6a3c; /* The vibrant orange for highlights */
+        }
+        .text-dark-blue {
+            color: #1e293b; /* Dark text color for headings */
+        }
+        
+        /* Large decorative shapes in the background */
+        .bg-shape-top-left {
+            background-color: #fcebeb; /* Soft pink/red color */
+            border-radius: 50%;
+            width: 350px;
+            height: 350px;
+            position: absolute;
+            top: -150px;
+            left: -150px;
+            z-index: 0;
+            opacity: 0.6;
+        }
+        .bg-shape-bottom-right {
+            background-color: #fcebeb; /* Soft pink/red color */
+            border-radius: 50%;
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            bottom: -200px;
+            right: -200px;
+            z-index: 0;
+            opacity: 0.6;
+        }
+
+        /* Carousel container to manage horizontal scrolling and overflow */
+        .carousel-container {
+            overflow: hidden;
+        }
+        
+        /* Carousel track for continuous movement */
+        .carousel-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            min-width: 100%; /* Important for initial layout */
+        }
+
+        /* Testimonial card sizing */
+        .testimonial-card-wrapper {
+            flex: 0 0 50%; /* Each card takes up 50% of the visible container width */
+            padding: 1rem;
+            box-sizing: border-box;
+        }
+        
+        /* Profile image styling */
+        .profile-img {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center horizontally and move up 50% of its height */
+            width: 76px; /* w-24 */
+            height: 76px; /* h-24 */
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid #fff;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.06);
+        }
+    </style>
+    <style>
+        /* Define custom colors and styles based on the screenshot */
+        .bg-dark-navy {
+            background-color: #0d1222; /* Very dark background for the bottom bar */
+        }
+        .text-custom-orange {
+            color: #ff6a3c; /* The vibrant orange */
+        }
+        .bg-custom-orange {
+            background-color: #ff6a3c;
+        }
+        .bg-custom-dark-overlay {
+            /* This dark overlay is crucial for text readability over the background image */
+            background-color: rgba(0, 0, 0, 0.75); /* Darker transparency */
+        }
+        .bg-orange-right {
+            /* The large, wedge-shaped orange block on the right */
+            background-color: #ff6a3c;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            width: 35%; /* Adjust for visual match */
+            clip-path: polygon(10% 0, 100% 0, 100% 100%, 0% 100%); /* Creates the diagonal slice */
+            opacity: 0.9;
+            z-index: 1;
+        }
+    </style>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8f8f8;
+        }
+        /* Custom Orange Color (Matching previous section/logo) */
+        .text-custom-orange {
+            color: #ff6a3c; 
+        }
+        .bg-custom-orange {
+            background-color: #ff6a3c;
+        }
+        
+        /* Hero section specific styles */
+        .hero-overlay {
+            /* This is the dark, slightly blue overlay used in the screenshot */
+            background-color: rgba(14, 21, 58, 0.85); 
+        }
+
+        /* Cropped image container styling with border effect */
+        .cropped-image-container {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%); /* Center vertically */
+            width: 300px; /* Specific width */
+            height: 400px; /* Specific height */
+            overflow: hidden;
+            border-radius: 0 50px 50px 0; /* Rounded only on the right side */
+            border-right: 2px solid white; /* Subtle white border on the right edge */
+            z-index: 20; /* Ensure it floats above the main text content slightly */
+        }
+        
+        /* Orange circle styling */
+        .orange-circle {
+            position: absolute;
+            left: 10px; /* Slightly offset from the edge */
+            bottom: 25%;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #ff6a3c;
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+
+    
+
+       <!-- Top Bar -->
+<div class="bg-[#1b1c2c] text-sm text-gray-300 flex justify-between items-center px-6 py-2">
+  <div class="flex items-center gap-2">
+    <i class="fas fa-map-marker-alt text-orange-400"></i>
+    <span>4673 Dorian Mills Suite 982</span>
+  </div>
+  <div class="flex items-center gap-3">
+    <span>Connect With us:</span>
+    <a href="#" class="hover:text-white"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="hover:text-white"><i class="fab fa-instagram"></i></a>
+    <a href="#" class="hover:text-white"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="hover:text-white"><i class="fab fa-youtube"></i></a>
+  </div>
+</div>
+
+<!-- Navbar -->
+<nav class="bg-white text-black px-6 md:px-10 py-4 shadow-md relative">
+  <div class="flex justify-between items-center">
+    <!-- Logo -->
+    <div class="flex items-center gap-4">
+      <img src="assets/logo.png" alt="Logo" class="w-20 h-20 object-contain" />
+    </div>
+
+    <!-- Desktop Menu -->
+    <ul class="hidden md:flex items-center gap-10 font-semibold text-[15px]">
+      <li><a href="#" class="hover:text-orange-500">Home</a></li>
+      <li><a href="#" class="hover:text-orange-500">About Us</a></li>
+      <li><a href="#" class="hover:text-orange-500">Services</a></li>
+      <li><a href="#" class="hover:text-orange-500">Blog</a></li>
+      <li><a href="#" class="hover:text-orange-500">Login</a></li>
+      <li><a href="#" class="hover:text-orange-500">Register</a></li>
+    </ul>
+
+    <!-- Hamburger Button (Mobile) -->
+    <button id="menu-btn" class="md:hidden text-3xl focus:outline-none">
+      <i class="fas fa-bars"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden absolute top-full left-0 w-full bg-white shadow-lg md:hidden">
+    <ul class="flex flex-col items-center py-4 space-y-4 font-semibold text-[15px]">
+      <li><a href="#" class="hover:text-orange-500">Home</a></li>
+      <li><a href="#" class="hover:text-orange-500">About Us</a></li>
+      <li><a href="#" class="hover:text-orange-500">Services</a></li>
+      <li><a href="#" class="hover:text-orange-500">Blog</a></li>
+      <li><a href="#" class="hover:text-orange-500">Login</a></li>
+      <li><a href="#" class="hover:text-orange-500">Register</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="min-h-screen relative bg-cover bg-center flex items-center px-6 md:px-20"
+         style="background-image: url('assets/img2.png'); background-blend-mode: overlay;">
+  <div class="absolute inset-0 bg-[#0f1123]/80"></div>
+
+  <div class="relative z-10 flex flex-col md:flex-row items-center gap-10 w-full">
+    
+    <!-- Left Image with Circle Decoration -->
+    <div class="border-2 border-dashed border-white w-[150px] h-[350px] rounded-[200px] mr-[-400px] mb-[-50px] hidden md:block"></div>
+
+    <div class="relative w-72 flex justify-center items-center mt-[-400px] ml-10 md:ml-40 md:mr-[-100px]">
+      <div class="absolute left-0 top-0 bg-white/10 backdrop-blur-lg rounded-[200px] overflow-hidden border border-gray-700">
+        <img src="assets/img1.png" alt="Business Meeting" class="object-cover w-[180px] h-[250px] rounded-[200px] hidden md:block" />
+      </div>
+      <div class="absolute bottom-[-400px] left-[-1px] w-[90px] h-[90px] bg-orange-500 rounded-full hidden md:block"></div>
+    </div>
+
+    <!-- Text Content -->
+    <div class="max-w-xl text-center md:text-left px-4 md:px-0">
+      <h1 class="text-4xl sm:text-5xl md:text-8xl font-extrabold text-white mb-6 leading-tight">
+        WELCOME<br>TO NETWORK<br>MARKETING 50
+      </h1>
+      <p class="text-gray-300 mb-8 leading-relaxed text-sm sm:text-base">
+        Investing can feel complex, but it doesn’t have to be. Whether you’re a beginner taking 
+        your first step or an experienced investor looking to diversify, we provide expert insights, 
+        market analysis, and practical tools to guide your financial journey.
+      </p>
+      <button class="bg-white text-black font-semibold px-6 py-3 rounded hover:bg-gray-200 transition">
+        Get Started
+      </button>
+    </div>
+  </div>
+</section>
+
+<!-- JS for Mobile Menu -->
+<script>
+  const menuBtn = document.getElementById('menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+</script>
+
+
+
+
+    <!-- About Us Section --><section class="flex items-center justify-center py-16 lg:py-24 bg-white">
+        <div class="container mx-auto px-4 flex flex-col lg:flex-row items-center gap-12 max-w-7xl">
+
+            <!-- Left Image Section --><div class="relative w-full lg:w-1/2 flex justify-center items-center h-[500px]">
+                <!-- Large Circle Container for the main image and overlay image --><div class="relative w-full max-w-[350px] h-full overflow-hidden flex items-center justify-center">
+                    <!-- Main image (left side in circle) --><img src="assets/a1.png" 
+     alt="Business meeting" 
+     class="absolute inset-0 w-full h-full object-cover rounded-l-full">
+
+                   
+                    
+            </div>
+             <!-- Orange circle with text overlay --><div class="absolute text-2xl right-0 top-1/5 -translate-y-1/2 translate-x-1/2 w-48 h-48 bg-custom-orange-light rounded-r-full flex items-center justify-center text-white font-bold text-4xl leading-tight hidden md:flex">
+                        25+
+                        <span class="block text-xl font-medium -mt-2">Years <br>Experience</span>
+            </div>
+
+                    <!-- Small image overlay (right-middle) --><img src="assets/a2.png" alt="Group of men talking business" class="absolute p-2 bg-white bottom-4 right-4 w-45 h-auto rounded-full shadow-xl translate-x-1/4 -translate-y-1/6 hidden md:block">
+                </div>
+
+            <!-- Right Content Section --><div class="w-full lg:w-1/2 lg:pl-16">
+                <!-- Section Heading and Subtitle --><div class="flex items-center space-x-2 mb-4">
+                    <span class="text-custom-orange font-semibold text-sm uppercase tracking-wider">ABOUT US</span>
+                    <div class="w-16 h-0.5 bg-custom-orange-light"></div>
+                </div>
+                <h2 class="text-4xl lg:text-5xl font-extrabold leading-tight mb-6 text-gray-900">
+                    We create digital experiences that inspire engagement
+                </h2>
+                <p class="text-base text-gray-about leading-relaxed mb-8">
+                    At NetworkMarketing50, we are building more than just a platform — we are
+                    creating opportunities. Our vision is to empower individuals through network
+                    marketing, financial growth, and smart investment strategies, making wealth-
+                    building accessible to everyone.
+                </p>
+
+                <!-- Stats and Features Grid --><div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-10">
+                    <!-- Success Rate Block --><div class="bg-custom-orange-light text-white p-6 rounded-lg flex items-center justify-center relative shadow-md w-full">
+                        <div class="text-center">
+                            <span class="block text-5xl font-extrabold">85%</span>
+                            <span class="block text-xl font-medium mt-1">Our Success rate</span>
+                        </div>
+                    </div>
+
+                    <!-- Features List --><div class="flex flex-col justify-between">
+                        <ul class="space-y-3 text-gray-800 text-lg">
+                            <li class="flex items-center">
+                                <span class="w-2.5 h-2.5 bg-custom-orange-light rounded-full mr-3"></span>Leading Business Solution
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2.5 h-2.5 bg-custom-orange-light rounded-full mr-3"></span>Business is the best plan
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2.5 h-2.5 bg-custom-orange-light rounded-full mr-3"></span>Services we provide
+                            </li>
+                            <li class="flex items-center">
+                                <span class="w-2.5 h-2.5 bg-custom-orange-light rounded-full mr-3"></span>Creative business idea
+                            </li>
+                        </ul>
+                        <!-- Active Reviews Block --><div class="flex items-center justify-end mt-6 md:mt-0">
+                            <!-- Placeholder for small circular profile images --><div class="flex -space-x-2 mr-3">
+                                <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white" src="assets/ar1.png" alt="Profile 1">
+                                <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white" src="assets/ar2.png" alt="Profile 2">
+                                <img class="inline-block h-8 w-8 rounded-full ring-2 ring-white" src="assets/ar3.png" alt="Profile 3">
+                            </div>
+                            <div>
+                                <span class="block text-2xl font-bold text-gray-900">1500+</span>
+                                <span class="block text-sm text-gray-600">Active Reviews</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Call to Action Button --><button class="bg-custom-orange-light hover:opacity-90 text-white font-semibold py-3 px-8 transition duration-300">
+                    About Us
+                </button>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Services Section -->
+
+    <section class="bg-[#161626] py-16 text-white min-h-screen">
+  <div class="text-center mb-12">
+    <p class="text-red-400 font-semibold text-2xl tracking-wider mb-2">— OUR SERVICES —</p>
+    <h2 class="text-3xl md:text-4xl font-bold">OUR UNIQUE AND AWESOME 
+        <br>
+        SERVICES</h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-10 px-6 md:px-20">
+    
+    <!-- CARD 1 -->
+    <div class="relative group flex flex-col items-center">
+      <!-- Gradient Background Layer -->
+      <div class="absolute top-12 w-48 h-80 hover:w-55 bg-gradient-to-b from-cyan-400 to-rose-400 rotate-3 rounded-xl opacity-90 group-hover:scale-105 transition-all duration-500 shadow-[0_0_30px_-5px_rgba(255,100,100,0.5)]"></div>
+      
+      <!-- Icon Card -->
+      <div class="z-10 bg-gradient-to-b from-cyan-400 to-rose-400 w-16 h-16 flex items-center justify-center rounded-lg mb-[-2rem] shadow-lg group-hover:scale-110 transition-all duration-500">
+        <i class="fas fa-handshake text-2xl"></i>
+      </div>
+
+      <!-- Main Content Card -->
+      <div class="z-20 bg-black/40 backdrop-blur-md rounded-xl mt-20 px-6 py-10 w-64 text-center shadow-lg group-hover:translate-y-[-5px] transition-all duration-500">
+        <h3 class="text-lg font-bold mb-4">Business Deals</h3>
+        <button class="bg-white text-black font-semibold px-4 py-2 rounded hover:bg-gray-200 transition">Read More</button>
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="relative group flex flex-col items-center">
+      <div class="absolute top-12 w-48 h-80 bg-gradient-to-b from-pink-500 to-blue-400 rotate-6 rounded-xl opacity-90 group-hover:scale-105 transition-all duration-500 shadow-[0_0_30px_-5px_rgba(255,100,255,0.5)]"></div>
+      
+      <div class="z-10 bg-gradient-to-b from-pink-500 to-blue-400 w-16 h-16 flex items-center justify-center rounded-lg mb-[-2rem] shadow-lg group-hover:scale-110 transition-all duration-500">
+        <i class="fas fa-briefcase text-2xl"></i>
+      </div>
+
+      <div class="z-20 bg-black/40 backdrop-blur-md rounded-xl mt-20 px-6 py-10 w-64 text-center shadow-lg group-hover:translate-y-[-5px] transition-all duration-500">
+        <h3 class="text-lg font-bold mb-4">Business Finance</h3>
+        <button class="bg-white text-black font-semibold px-4 py-2 rounded hover:bg-gray-200 transition">Read More</button>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="relative group flex flex-col items-center">
+      <div class="absolute top-12 w-48 h-80 bg-gradient-to-b from-green-400 to-cyan-400 rotate-6 rounded-xl opacity-90 group-hover:scale-105 transition-all duration-500 shadow-[0_0_30px_-5px_rgba(100,255,100,0.5)]"></div>
+      
+      <div class="z-10 bg-gradient-to-b from-green-400 to-cyan-400 w-16 h-16 flex items-center justify-center rounded-lg mb-[-2rem] shadow-lg group-hover:scale-110 transition-all duration-500">
+        <i class="fas fa-chart-line text-2xl"></i>
+      </div>
+
+      <div class="z-20 bg-black/40 backdrop-blur-md rounded-xl mt-20 px-6 py-10 w-64 text-center shadow-lg group-hover:translate-y-[-5px] transition-all duration-500">
+        <h3 class="text-lg font-bold mb-4">Business Analysis</h3>
+        <button class="bg-white text-black font-semibold px-4 py-2 rounded hover:bg-gray-200 transition">Read More</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section class="relative py-20 lg:py-32 bg-light-gray-pattern overflow-hidden">
+        
+        <!-- Background Decorative Shapes -->
+        <div class="bg-shape-top-left hidden lg:block"></div>
+        <div class="bg-shape-bottom-right hidden lg:block"></div>
+
+        <div class="container mx-auto px-4 max-w-7xl relative z-10">
+
+            
+
+<div class="flex flex-col lg:flex-row gap-12 items-center">
+
+                <!-- Left Content Column -->
+                <div class="w-full lg:w-1/3 text-center lg:text-left">
+                    <div class="flex items-center lg:justify-start justify-center space-x-2 mb-3">
+                        <div class="w-10 h-0.5 bg-custom-orange"></div>
+                        <span class="text-custom-orange font-semibold text-sm uppercase tracking-wider">USER REVIEW</span>
+                        <div class="w-10 h-0.5 bg-custom-orange"></div>
+                    </div>
+                    <h2 class="text-4xl lg:text-5xl font-extrabold leading-tight mb-4 text-dark-blue">
+                        Don't Believe Me <br> Check What Clients <br> Think Of Us
+                    </h2>
+                    <p class="text-lg text-gray-500 mb-8">
+                        Our happy customers
+                    </p>
+                    
+                    <!-- Carousel Navigation Dots -->
+                    <div id="carousel-dots" class="flex justify-center lg:justify-start space-x-3">
+                        <!-- Dots are generated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Right Carousel Column -->
+                <div class="w-full h-full lg:w-2/3 carousel-container">
+                    <div id="carousel-track" class="carousel-track">
+                        
+                        <!-- Card 1: Pritam Singh -->
+                        <div class="testimonial-card-wrapper">
+                            <div class="bg-white p-8 pt-16 rounded-lg shadow-lg relative h-full">
+                                <img src="assets\ur1.png" alt="Pritam Singh profile" class="profile-img">
+                                <h4 class="font-bold text-xl mb-1 text-dark-blue">Pritam Singh</h4>
+                                <p class="text-gray-500 italic mb-4">
+                                    "What I love most about NetworkMarketing50 is the guidance and training. Even as a beginner, I learned how to manage my investments and grow my business with confidence. The community support is incredible!"
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 2: Hemant Kumar (Visible on initial load) -->
+                        <div class="testimonial-card-wrapper">
+                            <div class="bg-white p-8 pt-16 rounded-lg shadow-lg relative h-full">
+                                <img src="assets\ur2.png" alt="Hemant Kumar profile" class="profile-img">
+                                <h4 class="font-bold text-xl mb-1 text-dark-blue">Hemant Kumar</h4>
+                                <p class="text-gray-500 italic mb-4">
+                                    "The combination of network marketing and financial education at NetworkMarketing50 is unmatched. It's not just about income – it's about building long-term wealth and supporting others along the way."
+                                </p>
+                            </div>
+                        </div>
+
+                        <!-- Card 3: New User -->
+                        <div class="testimonial-card-wrapper">
+                            <div class="bg-white p-8 pt-16 rounded-lg shadow-lg relative h-full">
+                                <img src="assets\ur3.png" alt="Anya Sharma profile" class="profile-img">
+                                <h4 class="font-bold text-xl mb-1 text-dark-blue">Anya Sharma</h4>
+                                <p class="text-gray-500 italic mb-4">
+                                    "I started with zero experience, and now I have a thriving side business. The resources here are top-notch and truly simplified complex financial concepts into actionable steps."
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- The entire footer section -->
+    <footer class="text-white">
+
+        <!-- 1. Top Footer Area (Dark background image with overlay) -->
+        <div class="relative py-20 overflow-hidden">
+            <!-- Background Image and Dark Overlay -->
+            <div class="absolute inset-0">
+                <img 
+                    src="assets\f_img.png" 
+                    alt="Business meeting background" 
+                    class="w-full h-full object-cover object-top"
+                >
+                <div class="absolute inset-0 bg-custom-dark-overlay"></div>
+            </div>
+            
+            <!-- Large Orange Diagonal Shape -->
+            <div class="bg-orange-right opacity-50 hidden lg:block"></div>
+
+            <!-- Content Grid -->
+            <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-4 gap-12">
+                
+                <!-- Column 1: About Us -->
+                <div class="md:col-span-1 space-y-5">
+                    <h4 class="text-2xl font-bold mb-4">About Us</h4>
+                    <p class="text-gray-300 text-sm leading-relaxed">
+                        NetworkMarketing50 is a trusted platform that blends the power of network marketing with smart financial growth strategies.
+                    </p>
+                    <!-- Small Image Gallery -->
+                    <div class="flex space-x-2 pt-4">
+                        <img class="w-16 h-16 object-cover rounded shadow-md" src="assets\f1.png" alt="Team member 1">
+                        <img class="w-16 h-16 object-cover rounded shadow-md" src="assets\f2.png" alt="Team member 2">
+                        <img class="w-16 h-16 object-cover rounded shadow-md" src="assets\f3.png" alt="Team member 3">
+                        <img class="w-16 h-16 object-cover rounded shadow-md" src="assets\f4.png" alt="Team member 4">
+                    </div>
+                </div>
+
+                <!-- Column 2: Explore -->
+                <div class="md:col-span-1 space-y-2">
+                    <h4 class="text-2xl font-bold mb-4">Explore</h4>
+                    <a href="#" class="block text-gray-300 hover:text-custom-orange transition text-sm">About Us</a>
+                    <a href="#" class="block text-gray-300 hover:text-custom-orange transition text-sm">Our Services</a>
+                    <a href="#" class="block text-gray-300 hover:text-custom-orange transition text-sm">Career</a>
+                    <a href="#" class="block text-gray-300 hover:text-custom-orange transition text-sm">Contact Us</a>
+                    <a href="#" class="block text-gray-300 hover:text-custom-orange transition text-sm">Works</a>
+                </div>
+
+                <!-- Column 3 & 4: Contact & CTA (Spans 2 columns on desktop) -->
+                <div class="md:col-span-2 space-y-6 flex flex-col justify-between">
+                    <!-- Phone Number -->
+                    <div class="flex items-center space-x-3">
+                        <div class="text-custom-orange text-2xl">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <span class="text-2xl font-semibold text-white">+91 9623366069</span>
+                    </div>
+
+                    <!-- Address -->
+                    <div class="flex items-center space-x-3">
+                        <div class="w-8 h-8 rounded-full bg-custom-orange flex items-center justify-center text-white">
+                            <i class="fas fa-map-marker-alt text-xs"></i>
+                        </div>
+                        <span class="text-gray-300">Airoli Navi Mumbai 400708</span>
+                    </div>
+                    
+                    <!-- Call to Action Text -->
+                    <p class="text-3xl lg:text-4xl font-extrabold leading-snug text-white max-w-md">
+                        Looking For A innovative idea for Your Business Contact Us Now!
+                    </p>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- 2. Bottom Bar (Logo, Links, Subscribe, Socials) -->
+        <div class="bg-dark-navy py-6">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col lg:flex-row justify-between items-center space-y-6 lg:space-y-0">
+                
+                <!-- Left: Logo and Links -->
+                <div class="flex items-center space-x-8">
+                    <!-- Logo (Image Placeholder) -->
+                    <img src="assets\N_logo.jpg" alt="NM50 Logo" class="h-16 w-16 object-cover rounded-xl shadow-lg">
+
+                    <!-- Navigation Links -->
+                    <div class="hidden md:flex space-x-6 text-sm font-medium text-gray-400">
+                        <a href="#" class="hover:text-custom-orange transition">About</a>
+                        <a href="#" class="hover:text-custom-orange transition">Services</a>
+                        <a href="#" class="hover:text-custom-orange transition">Blog</a>
+                        <a href="#" class="hover:text-custom-orange transition">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Right: Subscribe and Social Icons -->
+                <div class="flex items-center space-x-4">
+                    <!-- Subscribe Input -->
+                    <div class="flex">
+                        <input 
+                            type="email" 
+                            placeholder="Your email" 
+                            class="py-3 px-4 w-40 text-sm rounded-l-lg bg-black text-white border border-gray-700 focus:outline-none focus:border-custom-orange"
+                        >
+                        <button class="bg-custom-orange hover:opacity-90 text-white font-semibold py-3 px-4 text-sm rounded-r-lg transition duration-300">
+                            Subscribe
+                        </button>
+                    </div>
+
+                    <!-- Social Icons -->
+                    <div class="flex space-x-3">
+                        <a href="#" class="w-8 h-8 rounded-full bg-black flex items-center justify-center hover:bg-custom-orange transition text-gray-300">
+                            <i class="fab fa-whatsapp text-sm"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-black flex items-center justify-center hover:bg-custom-orange transition text-gray-300">
+                            <i class="fab fa-facebook-f text-sm"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-black flex items-center justify-center hover:bg-custom-orange transition text-gray-300">
+                            <i class="fab fa-twitter text-sm"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scroll to Top Button (Absolutely positioned on the far bottom right) -->
+        <button onclick="window.scrollTo({ top: 0, behavior: 'smooth' })" class="fixed bottom-4 right-4 z-50 w-10 h-10 bg-black hover:bg-custom-orange transition text-white rounded shadow-lg flex items-center justify-center">
+            <i class="fas fa-arrow-up"></i>
+        </button>
+
+    </footer>
+
+    
+
+<script>
+        // --- Carousel JavaScript Logic ---
+        const track = document.getElementById('carousel-track');
+        const dotsContainer = document.getElementById('carousel-dots');
+        const cards = Array.from(track.children);
+        const cardWidthPercentage = 50; // Since two cards are visible, each takes 50%
+        let currentIndex = 0;
+        const totalCards = cards.length;
+
+        // Function to update the carousel position
+        function updateCarousel() {
+            // Calculate the percentage to shift the track. 
+            // We want the current card to be the FIRST visible card (at the left edge of the visible area).
+            const translateX = currentIndex * cardWidthPercentage * -1;
+            track.style.transform = `translateX(${translateX}%)`;
+            updateDots();
+        }
+
+        // Function to move to the next slide
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % totalCards;
+            // When we reach the end, reset to 0
+            if (currentIndex > totalCards - 2) { 
+                 currentIndex = 0;
+            }
+            updateCarousel();
+        }
+
+        // Function to generate and update navigation dots
+        function updateDots() {
+            dotsContainer.innerHTML = '';
+            cards.forEach((_, index) => {
+                // Only create dots for the unique card positions (totalCards - cardsVisible + 1)
+                if (index < totalCards - 1) { 
+                    const dot = document.createElement('div');
+                    dot.classList.add('w-3', 'h-3', 'rounded-full', 'cursor-pointer', 'transition', 'duration-300');
+                    
+                    // The dot corresponds to the position of the first card visible in the group of 2.
+                    if (index === currentIndex) {
+                        dot.classList.add('bg-custom-orange');
+                    } else {
+                        dot.classList.add('bg-gray-300', 'hover:bg-gray-400');
+                    }
+                    
+                    // Attach click handler to navigate to that slide
+                    dot.addEventListener('click', () => {
+                        currentIndex = index;
+                        updateCarousel();
+                    });
+                    
+                    dotsContainer.appendChild(dot);
+                }
+            });
+        }
+
+        // Initialize the carousel and dots
+        window.onload = function() {
+            // Ensure the track is wide enough to hold all cards side-by-side
+            track.style.width = `${totalCards * cardWidthPercentage}%`; 
+            
+            // Set the initial state
+            updateCarousel(); 
+            
+            // Optional: Auto-play the carousel
+            setInterval(() => {
+                // Move to the next slide (which wraps around)
+                const nextIndex = (currentIndex + 1);
+                // If we are at the last viewable position, reset to 0
+                if (nextIndex > totalCards - 2) {
+                     currentIndex = 0;
+                } else {
+                     currentIndex = nextIndex;
+                }
+                updateCarousel();
+            }, 5000); // Change slide every 5 seconds
+        };
+    </script>
+
+
+</body>
+</html>
